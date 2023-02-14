@@ -50,7 +50,6 @@ ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
 const int mx = 1e5+123;
 ll dp[mx];
 
-
 ll calcFact( ll n )
 {
     if ( n == 1 ) return 1;
